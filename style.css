@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karantina", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #e5fae0;
+  color: #656565;
+}
+.container {
+  margin: 200px auto;
+  /* background-color: aliceblue; */
+  max-width: 500px;
+  height: 650px;
+  border-radius: 10px;
+  box-shadow: 15px -15px 15px #c6dbc1, -10px 10px 15px #9c9c9c;
+  padding: 25px;
+}
+
+.container .imageholder {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.imageholder img:hover {
+  cursor: pointer;
+  filter: grayscale(0.5);
+}
+
+.container .content {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.container h2 {
+  margin-top: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #157e00;
+}
+
+.content .designation {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #740000;
+}
+.container p {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 25px;
+  background-color: #157e00;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.container a:hover {
+  background-color: #740000;
+}
+.container a:active {
+  background-color: #656565;
+  outline: 4px solid rgba(219, 139, 139, 0.285);
+}
